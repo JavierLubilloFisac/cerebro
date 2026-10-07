@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cerebro: privacidad</title>
+  <style>
+    :root { color-scheme: light dark; --texto: #1d1d1f; --fondo: #ffffff; --suave: #6e6e73; --acento: #0b6e69; }
+    @media (prefers-color-scheme: dark) { :root { --texto: #f5f5f7; --fondo: #000000; --suave: #98989d; --acento: #45c4b8; } }
+    body { margin: 0; background: var(--fondo); color: var(--texto); font: 17px/1.5 -apple-system, "Segoe UI", system-ui, sans-serif; }
+    main { max-width: 40em; margin: 0 auto; padding: 48px 16px; }
+    h1 { font-size: 34px; margin: 0 0 8px; }
+    h2 { font-size: 21px; margin: 32px 0 8px; }
+    p, li { margin: 0 0 12px; }
+    .suave { color: var(--suave); }
+    a { color: var(--acento); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Política de privacidad de Cerebro</h1>
+    <p class="suave">Última actualización: 7 de octubre de 2026.</p>
+    <p>Cerebro es una aplicación personal y no comercial: solo la usa su autor, con su propia cuenta de Google.</p>
+
+    <h2>Qué datos usa</h2>
+    <p>Las grabaciones de las reuniones del usuario, que se guardan y se procesan en su propio PC. Ningún dato pasa por servidores de Cerebro: no los hay.</p>
+
+    <h2>Acceso a Google Drive</h2>
+    <ul>
+      <li>Cerebro pide solo el permiso <code>drive.file</code>: puede ver y modificar únicamente los archivos que crea ella misma, nunca el resto del Drive.</li>
+      <li>Lo usa para crear y actualizar documentos de Google Docs con las actas, en una carpeta «Cerebro» del Drive del propio usuario.</li>
+      <li>El permiso se guarda solo en el PC del usuario.</li>
+    </ul>
+
+    <h2>Con quién se comparten</h2>
+    <p>Con nadie. Cerebro no vende, no cede y no comparte datos con terceros, ni usa analítica ni publicidad.</p>
+    <p>El uso de la información recibida de las API de Google se ajusta a la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de API de Google</a>, incluidos los requisitos de uso limitado.</p>
+
+    <h2>Cómo retirar el acceso</h2>
+    <p>En cualquier momento, desde <a href="https://myaccount.google.com/permissions">los permisos de tu cuenta de Google</a>. Los documentos ya creados siguen en tu Drive, y puedes borrarlos cuando quieras.</p>
+
+    <p><a href="index.html">Volver a Cerebro</a></p>
+  </main>
+</body>
+</html>
